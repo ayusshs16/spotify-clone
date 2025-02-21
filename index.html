@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Spotify-Web Player:Music for Everyone</title>
+
+    <link rel="stylesheet" href="styling.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="logo.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="main">
+      <div class="sidebar">
+        <div class="nav">
+          <div class="nav-option" style="opacity: 1">
+            <i class="fa-solid fa-house"></i>
+
+            <a href="#">Home</a>
+          </div>
+
+          <div class="nav-option">
+            <i class="fa-solid fa-magnifying-glass"></i>
+
+            <a href="#">Search</a>
+          </div>
+        </div>
+
+        <div class="library">
+          <div class="options">
+            <div class="lib-options nav-option">
+              <img src="library_icon.png" alt="icon" />
+
+              <a href="#">Your Library</a>
+            </div>
+
+            <div class="icons">
+              <i class="fa-solid fa-plus"></i>
+
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+
+          <div class="boxes">
+            <div class="box">
+              <p class="box-p1">Create your first Playlist</p>
+
+              <p class="box-p2">It's easy we'll help you</p>
+
+              <button class="badge">Create Playlist</button>
+            </div>
+
+            <div class="box">
+              <p class="box-p1">Let's find some podcasts to follow</p>
+
+              <p class="box-p2">We'll keep you updated on new episodes</p>
+
+              <button class="badge">Browse Podcasts</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="contents">
+        <div class="sticky">
+          <div class="sticky-opt">
+            <img src="back opt.png" alt="back" />
+
+            <img src="forward opt.png" class="hide" alt="forward" />
+          </div>
+
+          <div class="sticky-btn">
+            <button class="badge nav-items hide">Explore Premium</button>
+
+            <button class="badge nav-items dark-badge">
+              <i class="fa-regular fa-circle-down" style="margin-right: 5px"></i
+              >Install App
+            </button>
+
+            <i class="fa-regular fa-user"></i>
+          </div>
+        </div>
+
+        <h2>Recently Played</h2>
+
+        <div class="cards-container">
+          <div class="card">
+            <img src="card1img.jpeg" alt="card1" class="card-img" />
+
+            <p class="card-title">Top 50-Global</p>
+
+            <p class="card-info">
+              Your daily updates of the most played tracks right..
+            </p>
+          </div>
+        </div>
+
+        <h2>Trending now near you</h2>
+
+        <div class="cards-container">
+          <div class="card">
+            <img src="card2img.jpeg" alt="card1" class="card-img" />
+
+            <p class="card-title">Mahiye jinna sohna</p>
+
+            <p class="card-info">Song-Darshan Raval</p>
+          </div>
+
+          <div class="card">
+            <img src="card3img.jpeg" alt="card1" class="card-img" />
+
+            <p class="card-title">Mere pass Tum ho</p>
+
+            <p class="card-info">Song-Rahat fateh Ali khan</p>
+          </div>
+
+          <div class="card">
+            <img src="card4img.jpeg" alt="card1" class="card-img" />
+
+            <p class="card-title">Naa ready(From"Leo")</p>
+
+            <p class="card-info">Song-Anirudh Ravichander,Vijay,..</p>
+          </div>
+        </div>
+
+        <h2>Featured charts</h2>
+        <div class="cards-container">
+          <div class="card">
+            <img src="card5img.jpeg" alt="card1" class="card-img" />
+
+            <p class="card-title">Top Songs-Global</p>
+
+            <p class="card-info">
+              Your weekly update of the most played tracks right...
+            </p>
+          </div>
+
+          <div class="card">
+            <img src="card6img.jpeg" alt="card1" class="card-img" />
+
+            <p class="card-title">Top 50-Global</p>
+
+            <p class="card-info">
+              Your weekly updates of the most played tracks right...
+            </p>
+          </div>
+
+          <div class="card">
+            <img src="card1img.jpeg" alt="card1" class="card-img" />
+
+            <p class="card-title">Top Songs-India</p>
+
+            <p class="card-info">
+              Your daily update of the most played tracks right...
+            </p>
+          </div>
+        </div>
+
+        <div class="footer">
+          <div class="line"></div>
+        </div>
+      </div>
+      <div class="player">
+        <div class="album">
+          <div class="album-img">
+            <img src="card2img.jpeg" alt="album" />
+          </div>
+
+          <div class="album-info">
+            <h1 class="songs">Mahiye jinna sohna</h1>
+
+            <h4 class="songs dark">Darshan Raval</h4>
+          </div>
+
+          <div class="icons">
+            <i class="fa-regular fa-heart hearts"></i>
+          </div>
+        </div>
+
+        <div class="player-info">
+          <img src="player_icon1.png" class="icons-p" />
+
+          <img src="player_icon2.png" class="icons-p" />
+
+          <img
+            src="player_icon3.png"
+            style="opacity: 1; height: 2rem"
+            class="icons-p"
+          />
+
+          <img src="player_icon4.png" class="icons-p" />
+
+          <img src="player_icon5.png" class="icons-p" />
+
+          <div class="playback-bar">
+            <span class="player-curr-time">0:00</span>
+
+            <input type="range" min="0" max="100" class="player-range" />
+
+            <span class="player-tot-time">3:00</span>
+          </div>
+        </div>
+
+        <div class="controls">
+          <div class="icons">
+            <i class="fa-solid fa-play video"></i>
+
+            <i class="fa-solid fa-volume-high vol"></i>
+
+            <input
+              type="range"
+              min="0"
+              max="100"
+              class="vol-range"
+              steps="100"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
